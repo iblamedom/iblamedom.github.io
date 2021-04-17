@@ -21,14 +21,14 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  position: relative;
-  min-width: 50vh;
-  min-height: 50vh;
+  position: absolute;
+  width: 50vh;
+  height: 50vh;
   margin: 0 0.5rem;
   border-radius: 50%;
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  min-font-size: 25vh;
+  font-size: 25vh;
   text-decoration: none;
   transition: all 0.15s ease;
 }
