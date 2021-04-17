@@ -1,9 +1,8 @@
-/* Demo */
 body {
   display: flex;
   align-items: center;
   justify-content: center;
-  min-height: 100%;
+  min-height: 100vh;
 }
 
 /* Color Variables */
@@ -39,19 +38,18 @@ $color-facebook: #3b5a9b;
   display: flex;
 
 }
-
 .social-icon {
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
-  width: 25vh;
-  height: 25vh;
+  width: 80px;
+  height: 80px;
   margin: 0 0.5rem;
   border-radius: 50%;
   cursor: pointer;
   font-family: "Helvetica Neue", "Helvetica", "Arial", sans-serif;
-  font-size: 10vh;
+  font-size: 2.5rem;
   text-decoration: none;
   transition: all 0.15s ease;
 
