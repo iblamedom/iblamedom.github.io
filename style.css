@@ -1,6 +1,8 @@
 body {
   margin: 0;
   padding:10px;
+	display: flex;
+  align-items: center;
   background: #262626;
 }
 
