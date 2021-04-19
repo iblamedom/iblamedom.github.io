@@ -40,8 +40,8 @@
 }
 
 body {
-  margin: 0;
-  padding:30px;
+  margin:auto;
+  padding:auto;
   background: #262626;
   font-family: 'Abril Fatface';
   line-height: 1.2;
