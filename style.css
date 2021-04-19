@@ -10475,5 +10475,7 @@ if ( !noGlobal ) {
 return jQuery;
 } );;
 }
-
+ul li:nth-child(8) a:before {
+  background: #f3ce13;
+}
 
