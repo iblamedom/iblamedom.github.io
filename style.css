@@ -1,8 +1,3 @@
-.content {
-  max-width: 100%;
-  margin: 20px;
-}
-
 
 .container {
   list-style:none;
@@ -12,9 +7,9 @@
 }
 .item {
   background: #262626;
-  padding: 5px;
-  width:auto;
-  height:auto;
+  padding: 5%;
+  width:100%;
+  height:100%;
   margin:5px;
   
   line-height:auto;
