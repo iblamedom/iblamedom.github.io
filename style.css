@@ -33,14 +33,72 @@
   float:left;
 }
 
+html, body {
+  background: #262626;
+  height: 100%;
+  width: 100%;
+}
+
 body {
-  margin:1%;
-  padding:1%;
+
   background: #262626;
   font-family: 'Abril Fatface';
   line-height: 1.2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
 }
 
+.phone {
+  height: 50px;
+  width: 100px;
+  border: 3px solid white;
+  border-radius: 10px;
+  -webkit-animation: rotate 1.5s ease-in-out infinite alternate;
+          animation: rotate 1.5s ease-in-out infinite alternate;
+  /* display: none; */
+  
+  
+.message {
+  color: white;
+  font-size: 1em;
+  margin-top: 40px;
+  /* display: none; */
+}
+  
+  
+  @-webkit-keyframes rotate {
+  0% {
+		transform: rotate(0deg)
+	}
+	50% {
+		transform: rotate(-90deg)
+	}
+	100% {
+		transform: rotate(-90deg)
+	}
+}
+
+@keyframes rotate {
+  0% {
+		transform: rotate(0deg)
+	}
+	50% {
+		transform: rotate(-90deg)
+	}
+	100% {
+		transform: rotate(-90deg)
+	}
+}
+
+@media only screen and (max-device-width: 812px) and (orientation: landscape) {
+  .phone, .message {
+    display: block;
+  }
+}
+  
 p {
   margin: calc(4vw + 4vh + 2vmin);
   font-size: calc(4vw + 4vh + 2vmin);
