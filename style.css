@@ -1,9 +1,9 @@
 
 .container {
   list-style:none;
-  margin-left:auto;
-  margin-right:auto;
-  padding: 0;
+  margin-left:inherit;
+  margin-right:inherit;
+  padding: 10%;
 }
 .item {
   background: #262626;
@@ -57,12 +57,10 @@ ul{
     -webkit-columns: 2;
     -moz-columns: 2;
     columns:initial;
-    list-style-position: inside;//*this is important addition*/
+    list-style-position: inside;
+  /*this is important addition*/
  display:flex;
   position:relative;
-   top: auto;
- left: auto;
-  transform:scale;
 }
 
 ul li {
