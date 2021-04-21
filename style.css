@@ -7,10 +7,10 @@
 }
 .item {
   background: #262626;
-  padding: 5%;
+  
      width: fit-content;
     height: fit-content;
-  margin:5px;
+  margin:1%;
   
 
   font-weight: bold;
@@ -34,8 +34,8 @@
 }
 
 body {
-  margin:auto;
-  padding:auto;
+  margin:1%;
+  padding:1%;
   background: #262626;
   font-family: 'Abril Fatface';
   line-height: 1.2;
