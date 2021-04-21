@@ -35,8 +35,13 @@
 
 
 body {
+  
+   	display: flex;
+  	align-items: center;
+  	justify-content: center;
+	background: #262626;
+  	height: 500px;
 
-  background: #262626;
   font-family: 'Abril Fatface';
   line-height: 1.2;
 
