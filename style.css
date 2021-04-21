@@ -39,10 +39,6 @@ body {
   background: #262626;
   font-family: 'Abril Fatface';
   line-height: 1.2;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
 
 }
 
