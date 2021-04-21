@@ -19,7 +19,7 @@
 }
 
 .float {
-  max-width: 1200px;
+  max-width: -webkit-fill-available;
   margin: auto;
 }
 .float:after {
@@ -57,7 +57,7 @@ ul{
     -webkit-columns: 2;
     -moz-columns: 2;
     columns:initial;
-    list-style-position: inside;//this is important addition
+    list-style-position: inside;//*this is important addition*/
  display:flex;
   position:relative;
    top: auto;
