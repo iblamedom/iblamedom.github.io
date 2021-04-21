@@ -59,8 +59,7 @@ ul{
     columns:initial;
     list-style-position: inside;
   /*this is important addition*/
- display:flex;
-  position:relative;
+
 }
 
 ul li {
