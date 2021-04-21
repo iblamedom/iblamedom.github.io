@@ -12,11 +12,10 @@
   height:100%;
   margin:5px;
   
-  line-height:auto;
- / color: white;
+
   font-weight: bold;
   font-size: 3em;
-  text-align: center;
+
 }
 
 .float {
@@ -43,7 +42,7 @@ body {
 }
 
 p {
-  margin: 0;
+  margin: calc(4vw + 4vh + 2vmin);
   font-size: calc(4vw + 4vh + 2vmin);
   /* See:
    * https://codepen.io/CrocoDillon/pen/jgmwt
