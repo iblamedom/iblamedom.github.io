@@ -69,9 +69,9 @@ p {
 
 ul{
     list-style-type: none;
-    -webkit-columns: 2;
+   /* -webkit-columns: 2;
     -moz-columns: 2;
-    columns:initial;
+    columns:initial; */
     list-style-position: inside;
   /*this is important addition*/
 
