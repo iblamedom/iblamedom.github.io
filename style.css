@@ -7,7 +7,7 @@
 .container {
 	display: flex;
 	flex-flow: row wrap;
-	  justify-content: flex-end;
+	  justify-content: center;
   list-style:none;
  
   padding: 10%;
