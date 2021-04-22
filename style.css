@@ -1,15 +1,11 @@
-/* .content {
+* .content {
 	display: flex;
 	flex-flow: row;
   	align-items: center;
   	justify-content: center;
-}*/
-
-
-#container > div {
-  display: flex;
-  font-family: Courier New, Lucida Console, monospace;
 }
+
+
 
 .container > div > div {
   width: 50px;
@@ -106,12 +102,12 @@ ul li {
 }
 
 ul li a {
-  width: 110px;
-  height: 110px;
+  width: 100px;
+  height: 100px;
   background-color: #fff;
   text-align: center;
-  line-height: 110px;
-  font-size: 60px;
+  line-height: 100px;
+  font-size: 50px;
   margin: 0 10px;
   display: block;
   border-radius: 50%;
