@@ -24,7 +24,7 @@
 }
 
 .float {
-  max-width: -webkit-fill-available;
+  max-width: fit-content;
   margin: auto;
 }
 .float:after {
@@ -35,7 +35,7 @@
   visibility: hidden;
 }
 .float-item {
-  float:none;
+  float:left;
 }
 
 
