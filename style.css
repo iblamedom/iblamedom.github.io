@@ -1,15 +1,16 @@
-.content {
+/*.content {
 	display: flex;
 	flex-flow: row;
   	align-items: center;
   	justify-content: center;
-}
+}*/
 
 .container {
 	display: flex;
 	flex-flow: row;
+	justify-content: center;
   	list-style:none;
-	overflow: hidden;
+
  
 }
 .item {
