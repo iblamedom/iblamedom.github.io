@@ -72,9 +72,9 @@ p {
 
 ul{
     list-style-type: none;
-   /* -webkit-columns: 2;
+    -webkit-columns: 2;
     -moz-columns: 2;
-    columns:initial; */
+    columns: 2; 
     list-style-position: inside;
   /*this is important addition*/
 
@@ -85,12 +85,12 @@ ul li {
 }
 
 ul li a {
-  width: 90px;
-  height: 90px;
+  width: 100px;
+  height: 100px;
   background-color: #fff;
   text-align: center;
-  line-height: 90px;
-  font-size: 45px;
+  line-height: 100px;
+  font-size: 55px;
   margin: 0 10px;
   display: block;
   border-radius: 50%;
