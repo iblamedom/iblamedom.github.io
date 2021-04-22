@@ -1,7 +1,8 @@
 .content {
 	display: flex;
+	flex-flow: row;
   	align-items: center;
-  	justify-content: space-evenly;
+  	justify-content: center;
 }
 
 .container {
@@ -12,10 +13,9 @@
 }
 .item {
   background: #262626;
-  
-     width: fit-content;
-    height: fit-content;
-  margin:1%;
+ 	width: fit-content;
+   	height: fit-content;
+  	margin:1%;
   
 
   font-weight: bold;
@@ -24,9 +24,9 @@
 }
 
 .float {
-  max-width: fit-content;
-  margin: auto;
-}
+  max-width: max-content;
+  }
+
 .float:after {
   content: ".";
   display: block;
