@@ -1,4 +1,4 @@
-/*.content {
+/* .content {
 	display: flex;
 	flex-flow: row;
   	align-items: center;
@@ -11,25 +11,23 @@
   font-family: Courier New, Lucida Console, monospace;
 }
 
-#container > div > div {
+.container > div > div {
   width: 50px;
   height: 50px;
   background: linear-gradient(-45deg, #788cff, #b4c8ff);
-}
-
-
-#center {
-  justify-content: center;
-}
-
-.container {
 	display: flex;
 	flex-flow: row;
 	justify-content: center;
   	list-style:none;
 
- 
 }
+
+
+.center {
+  justify-content: center;
+}
+
+
 .item {
   background: #262626;
  	width: fit-content;
