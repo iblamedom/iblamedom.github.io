@@ -8,7 +8,8 @@
 .container {
 	display: flex;
 	flex-flow: row;
-  list-style:none;
+  	list-style:none;
+	overflow: hidden;
  
 }
 .item {
@@ -24,19 +25,24 @@
 }
 
 .float {
-  max-width: max-content;
+  	width: 100%;
+    	width: -moz-available;          /* WebKit-based browsers will ignore this. */
+    	width: -webkit-fill-available;  /* Mozilla-based browsers will ignore this. */
+    	width: fill-available;;
   }
 
 .float:after {
-  content: ".";
-  display: block;
-  height: 0;
-  clear: both;
-  visibility: hidden;
-}
+  	content: ".";
+  	display: block;
+  	height: 0;
+  	clear: both;
+  	visibility: hidden;
+	}
+/*
 .float-item {
   float:left;
 }
+*/
 
 
 body {
@@ -46,9 +52,8 @@ body {
   	justify-content: center;
 	background: #262626;
   	height: 500px;
-
-  font-family: 'Abril Fatface';
-  line-height: 1.2;
+	font-family: 'Abril Fatface';
+ 	line-height: 1.2;
 
 }
 
